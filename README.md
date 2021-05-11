@@ -26,6 +26,8 @@ We were asked to provide three separate deliverables, along with a report of ouf
   
 ## Compiling, Training, and Evaluating the Model
 **Neurons, layers, and activation functions**
+![Model_Structure_Summary](https://github.com/andeevosters/Neural_Network_Charity_Analysis/blob/main/Model_Structure_Summary.png)
+
 For our neural network model, we selected the following:
 
 • 190 neurons in input layer to increase the original number of variables (80; increased to 190 for higher accuracy), using Relu activation
