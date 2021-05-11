@@ -10,6 +10,7 @@ Beks received a CSV containing more than 34,000 organizations that have received
 
 ### Analysis
 We were asked to provide three separate deliverables, along with a report of ouf findings. The three steps include:
+
   • Preprocess Data for a Neural Network Model
   
   • Compile, Train, and Evaluate the Model
@@ -26,6 +27,7 @@ We were asked to provide three separate deliverables, along with a report of ouf
 ## Compiling, Training, and Evaluating the Model
 **Neurons, layers, and activation functions**
 For our neural network model, we selected the following:
+
 • 190 neurons in input layer to increase the original number of variables (80; increased to 190 for higher accuracy), using Relu activation
 
 • Hidden layer with 30 neurons, using Relu
@@ -36,16 +38,17 @@ For our neural network model, we selected the following:
   
 **Our attempt to reach 75% accuracy**
 We were not able to achieve the target model performance (75%), however we did experience a .0005 increase, from .7257 to .7262. The slight increase is due to the following attempts:
+
 • **Successful attempts**
 
-• Removed "ASK_AMT" and "STATUS" as noisy variables
+  • Removed "ASK_AMT" and "STATUS" as noisy variables
 
-• Increased layer one neurons from 80 to 190
+  • Increased layer one neurons from 80 to 190
   
 • **Failed attempts**
 
-• Increase hidden layer 2's neurons to 70 from 30
+  • Increase hidden layer 2's neurons to 70 from 30
 
-• Added an additional hidden layer
+  • Added an additional hidden layer
 
-• Changed the output activation style to Relu and Tanh
+  • Changed the output activation style to Relu and Tanh
