@@ -1,5 +1,4 @@
-# Neural Network Charity Analysis: 
-# Loan Prediction Risk Assessment
+# Neural Network Charity Analysis: Loan Prediction Risk Assessment
 
 ## Overview
 My client, Beks, is a data analyst at Alphabet Soup; a nonprofit, philanthropic foundation that has donated more than $10 billion to organizations that protect the environment, improve people's wellbeing, and unify the world. Beks is responsible for analyzing the impact of every dollar donated and vetting potential recipients, to ensure the foundation's money is being used effectively. I am helping Beks build a machine learning model to try and predict which future recipients should receive donations, and which are too high-risk.
@@ -28,17 +27,25 @@ We were asked to provide three separate deliverables, along with a report of ouf
 **Neurons, layers, and activation functions**
 For our neural network model, we selected the following:
 • 190 neurons in input layer to increase the original number of variables (80; increased to 190 for higher accuracy), using Relu activation
+
 • Hidden layer with 30 neurons, using Relu
+
 • Output layer with one neuron, using Sigmoid 
+
 • A total of 13,741 neurons
   
 **Our attempt to reach 75% accuracy**
 We were not able to achieve the target model performance (75%), however we did experience a .0005 increase, from .7257 to .7262. The slight increase is due to the following attempts:
 • **Successful attempts**
-  • Removed "ASK_AMT" and "STATUS" as noisy variables
-  • Increased layer one neurons from 80 to 190
+
+• Removed "ASK_AMT" and "STATUS" as noisy variables
+
+• Increased layer one neurons from 80 to 190
   
 • **Failed attempts**
-  • Increase hidden layer 2's neurons to 70 from 30
-  • Added an additional hidden layer
-  • Changed the output activation style to Relu and Tanh
+
+• Increase hidden layer 2's neurons to 70 from 30
+
+• Added an additional hidden layer
+
+• Changed the output activation style to Relu and Tanh
